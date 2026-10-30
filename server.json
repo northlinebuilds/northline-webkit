@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.workers.northline-c86.northline-webkit/webkit",
+  "title": "Northline WebKit",
+  "description": "Pay-per-call web tools for agents: URL to markdown, metadata, links, DNS, email/domain checks, RDAP.",
+  "version": "1.0.0",
+  "websiteUrl": "https://northline-webkit.northline-c86.workers.dev/llms.txt",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://northline-webkit.northline-c86.workers.dev/mcp" }
+  ]
+}

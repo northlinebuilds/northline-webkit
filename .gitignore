@@ -1,0 +1,5 @@
+node_modules
+.wrangler
+.deployed-url
+.node22path
+.dev.vars

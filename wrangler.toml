@@ -1,0 +1,12 @@
+name = "northline-webkit"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[vars]
+PAY_TO = "0xD4F04c07037c42F84e5B15A7843e58e1C6FccC96"  # Northline revenue wallet (same as ChainKit)
+NETWORK = "eip155:8453"
+FACILITATOR = "payai"
+SERVICE_NAME = "Northline WebKit"
+PUBLIC_BASE_URL = "https://northline-webkit.northline-c86.workers.dev"

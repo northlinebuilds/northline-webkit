@@ -1,0 +1,43 @@
+{
+  "name": "northline-webkit",
+  "version": "1.0.0",
+  "description": "Pay-per-call web tools for AI agents: x402 + USDC on Base, MCP server, no API keys",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p .",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "keywords": [
+    "x402",
+    "mcp",
+    "mcp-server",
+    "ai-agents",
+    "usdc",
+    "base",
+    "cloudflare-workers"
+  ],
+  "author": "Northline",
+  "license": "MIT",
+  "dependencies": {
+    "@coinbase/x402": "^2.1.0",
+    "@x402/core": "^2.28.0",
+    "@x402/evm": "^2.28.0",
+    "@x402/extensions": "^2.28.0",
+    "@x402/hono": "^2.28.0",
+    "hono": "^4.13.13"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261009.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "viem": "^2.57.4",
+    "vitest": "^3.2.7",
+    "wrangler": "^4.149.0"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/northlinebuilds/northline-webkit"
+  },
+  "homepage": "https://northline-webkit.northline-c86.workers.dev"
+}
